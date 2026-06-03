@@ -2,7 +2,7 @@ import React from "react";
 function Footer(){
     return(
         <div className="footer_container">
-            <p>&copyright jetlens </p>
+            <p>&copyright aerolens </p>
             <a href="">FaceBook</a>
             <a href="">Instagram</a>
             <a href="">Twitter</a>
