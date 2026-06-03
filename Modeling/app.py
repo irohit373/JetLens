@@ -26,6 +26,7 @@ CORS(app, origins=["http://localhost:3000", "http://127.0.0.1:3000"])
 current_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(current_dir, "flight_rf.pkl")
 
+model = None
 try:
     model = pickle.load(open(model_path, "rb"))
     print(f"Model loaded successfully from {model_path}")
