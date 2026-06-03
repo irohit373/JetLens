@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <h1>This is Jetlens HOME page...</h1>
+      <h1>This is AeroLens HOME page...</h1>
       <Footer/>
     </>
   )
