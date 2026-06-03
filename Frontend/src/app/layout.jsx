@@ -8,21 +8,21 @@ import toast, { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "JetLens",
-  description: "JetLens - Flight Booking with Chatbot. Book flights, get travel advice, and more.",
+  title: "aerolens",
+  description: "aerolens - Flight Booking with Chatbot. Book flights, get travel advice, and more.",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
-  canonical: "https://www.jetlens.com",
+  canonical: "https://www.aerolens.com",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
-        <title>Jetlens Home</title>
+        <title>aerolens Home</title>
         <link rel="icon" href="/favicon.ipng" />
       </Head>
       <body className={inter.className}>
