@@ -68,7 +68,7 @@ const Navbar = () => {
               alt="Logo"
               className="h-8 w-8 rounded-full"
             />
-            <span className="ml-2 text-xl text-blue-800 hidden sm:inline">JetLens</span>
+            <span className="ml-2 text-xl text-blue-800 hidden sm:inline">Aerolens</span>
           </div>
 
           {/* Right Section - Navigation Items */}
